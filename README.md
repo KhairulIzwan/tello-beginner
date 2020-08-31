@@ -3,10 +3,13 @@
 ```
 
 tello-beginner
+├── images
+│   └── Tello Aircraft Diagram.png
 ├── README.md
 ├── tello-command.py
 ├── tello-state.py
 └── tello-stream.py
+
 
 ```
 
@@ -51,3 +54,13 @@ FOV | 82.6°
 Video | HD720P30
 Format | JPG(Photo); MP4(Video)
 EIS | Yes
+
+## Code
+*"""
+The Tello SDK connects to the aircraft through a Wi-Fi UDP port, allowing users 
+to control the aircraft with text commands.
+
+By establish a UPD communication port, which can implement simple interaction 
+with Tello, including sending SDK instructions to Tello and receiving Tello 
+information.
+"""*
