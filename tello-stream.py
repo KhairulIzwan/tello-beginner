@@ -33,6 +33,7 @@ while True:
 		print("[INFO]: Close a UDP socket...")
 		sock.close()
 		break
-		
+
+# close/clean streams		
 tello_video.release()
 cv2.destroyAllWindows()

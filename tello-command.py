@@ -44,8 +44,10 @@ data, server = sock.recvfrom(1024)
 data = data.decode(encoding="utf-8")
 print("[RECV]: Recieving [{}] response".format(colored(data, 'green')))
 
+# loops
 while True:
 	try:
+		# waiting for user instruction --> SDK2.0
 		print("{}".format(colored("[USER]: ", 'green')))
 		msg = raw_input('') # change raw_input --> input for Python 3
 		if not msg:
