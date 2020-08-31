@@ -26,7 +26,7 @@ enhance safety.
 
 Aircraft
 
-Aircraft
+Aircraft | 
 ------------ | -------------
 Weight | Approximately 80 g (Propellers and Battery Included)
 Dimensions | 98×92.5×41 mm
