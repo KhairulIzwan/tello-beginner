@@ -13,7 +13,6 @@ tello-beginner
 ## Introduction
 
 ![GitHub Logo](https://github.com/KhairulIzwan/tello-beginner/blob/master/images/Tello%20Aircraft%20Diagram.png)
-Format: ![Alt Text](url)
 
 **Tello** is a **small quadcopter that features a Vision Positioning System and an 
 onboard camera**. Using its **Vision Positioning System and advanced flight 
@@ -27,11 +26,13 @@ enhance safety.
 
 Aircraft
 
-Weight: Approximately 80 g (Propellers and Battery Included)
-Dimensions: 98×92.5×41 mm
-Propeller: 3 inches
-Built-in Functions: Range Finder, Barometer, LED, Vision System, 2.4 GHz 802.11n Wi-Fi, 720p Live View
-Port: Micro USB Charging Port
+Aircraft
+------------ | -------------
+Weight | Approximately 80 g (Propellers and Battery Included)
+Dimensions | 98×92.5×41 mm
+Propeller | 3 inches
+Built-in Functions | Range Finder, Barometer, LED, Vision System, 2.4 GHz 802.11n Wi-Fi, 720p Live View
+Port | Micro USB Charging Port
 
 Flight Performance
 Max Flight Distance: 100m
