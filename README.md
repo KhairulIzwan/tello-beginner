@@ -55,6 +55,12 @@ Video | HD720P30
 Format | JPG(Photo); MP4(Video)
 EIS | Yes
 
+## Download the Tello App
+
+![GitHub Logo](https://github.com/KhairulIzwan/tello-beginner/blob/master/images/Tello%20App.png)
+
+![GitHub Logo](https://github.com/KhairulIzwan/tello-beginner/blob/master/images/Tello%20EDU%20App.png)
+
 ## Important Notes
 ```
 """
