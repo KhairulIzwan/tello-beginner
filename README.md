@@ -72,3 +72,5 @@ with Tello, including sending SDK instructions to Tello and receiving Tello
 information.
 """
 ```
+
+![GitHub Logo](https://github.com/KhairulIzwan/tello-beginner/blob/master/images/Tello%20Architecture.png)
