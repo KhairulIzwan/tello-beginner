@@ -4,8 +4,29 @@
 
 tello-beginner
 ├── images
-│   └── Tello Aircraft Diagram.png
+│   ├── Tello Aircraft Diagram.png
+│   ├── Tello App.png
+│   ├── Tello Architecture.png
+│   └── Tello EDU App.png
 ├── README.md
+├── reference
+│   └── TelloDoc
+│       ├── FIRA-AIR
+│       │   ├── FIRA Air 2019 - Emergency Service (Outdoor).pdf
+│       │   ├── FIRA Air - Autonomous Race - Google Docs.pdf
+│       │   ├── FIRA Air - Autonomous Race (U19) - 2019.pdf
+│       │   └── FIRA Air - Emergency Service Indoor - 2019.pdf
+│       ├── Tello2.py
+│       ├── Tello3.py
+│       ├── Tello Mission Pad User Guide.pdf
+│       ├── Tello.pdf
+│       ├── Tello Programme Tentative.doc
+│       ├── Tello Programme Tentative.docx
+│       ├── Tello Programme Tentative.odt
+│       ├── Tello+Quick+Start+Guide_V1.2+multi.pdf
+│       ├── Tello SDK 2.0 User Guide.pdf
+│       ├── Tello SDK Documentation EN_1.3_1122.pdf
+│       └── Tello_User_Manual_V1.2_EN.pdf
 ├── tello-command.py
 ├── tello-state.py
 └── tello-stream.py
