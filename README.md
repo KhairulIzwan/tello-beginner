@@ -12,13 +12,16 @@ tello-beginner
 
 ## Introduction
 
+![GitHub Logo](/images/Tello Aircraft Diagram.png)
+Format: ![Alt Text](url)
+
 **Tello** is a **small quadcopter that features a Vision Positioning System and an 
-onboard camera**. Using its Vision Positioning System and advanced flight 
-controller, it can hover in place and is suitable for flying indoors. Advanced 
-features like Bounce mode, 8D Flips, and EZ Shots make using Tello fun. Tello 
-captures 5 megapixel photos and streams 720p live video to the Tello app on a 
-mobile device. Its maximum flight time is approximately 13 minutes*, and its 
-maximum flight distance is 328 ft (100 m). Failsafe Protection enables Tello to 
+onboard camera**. Using its **Vision Positioning System and advanced flight 
+controller, it can hover in place and is suitable for flying indoors**. Advanced 
+features like **Bounce mode, 8D Flips, and EZ Shots** make using Tello fun. Tello 
+**captures 5 megapixel photos and streams 720p live video** to the Tello app on a 
+mobile device. Its maximum **flight time is approximately 13 minutes***, and its 
+**maximum flight distance is 328 ft (100 m)**. Failsafe Protection enables Tello to 
 land safely even if you lose connection and its propeller guards can be used to 
 enhance safety.
 
