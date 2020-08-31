@@ -30,7 +30,7 @@ sock.bind((local_ip, local_port))
 # initiate SDK mode
 print("[INFO]: Initiate SDK mode...")
 msg = "command"
-msg = msg.encode()
+msg = msg.encode(encoding="utf-8")
 
 """
 send "command" to the Tello via UDP PORT 8889 to initiate SDK mode
@@ -43,7 +43,7 @@ while True:
 	try:		
 		# receiving tello-sate
 		data, server = sock.recvfrom(1024)
-		data = data.decode()
+		data = data.decode(encoding="utf-8")
 		print("[RECV]: Recieving [{}] command".format(colored(data, 'green')))
 		
 	except Exception as err:
