@@ -55,7 +55,7 @@ Video | HD720P30
 Format | JPG(Photo); MP4(Video)
 EIS | Yes
 
-## Code
+## Important Notes
 ```
 """
 The Tello SDK connects to the aircraft through a Wi-Fi UDP port, allowing users 
