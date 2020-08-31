@@ -12,7 +12,7 @@ tello-beginner
 
 ## Introduction
 
-![GitHub Logo](/images/Tello Aircraft Diagram.png)
+![GitHub Logo](https://github.com/KhairulIzwan/tello-beginner/blob/master/images/Tello%20Aircraft%20Diagram.png)
 Format: ![Alt Text](url)
 
 **Tello** is a **small quadcopter that features a Vision Positioning System and an 
