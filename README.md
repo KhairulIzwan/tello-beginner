@@ -24,14 +24,7 @@ mobile device. Its maximum **flight time is approximately 13 minutes***, and its
 land safely even if you lose connection and its propeller guards can be used to 
 enhance safety.
 
-Aircraft
-
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
-
-Aircraft | dasdasdasd
+Aircraft | Description
 ------------ | -------------
 Weight | Approximately 80 g (Propellers and Battery Included)
 Dimensions | 98×92.5×41 mm
@@ -39,18 +32,22 @@ Propeller | 3 inches
 Built-in Functions | Range Finder, Barometer, LED, Vision System, 2.4 GHz 802.11n Wi-Fi, 720p Live View
 Port | Micro USB Charging Port
 
-Flight Performance
-Max Flight Distance: 100m
-Max Speed: 8m/s
-Max Flight Time: 13min
-Max Flight Height: 30m
 
-Battery
-Detachable Battery: 1.1Ah/3.8V
+Flight Performance | Description
+------------ | -------------
+Max Flight Distance | 100m
+Max Speed | 8m/s
+Max Flight Time | 13min
+Max Flight Height | 30m
 
-Camera
-Photo: 5MP (2592x1936)
-FOV: 82.6°
-Video: HD720P30
-Format: JPG(Photo); MP4(Video)
-EIS: Yes
+Battery | Description
+------------ | -------------
+Detachable Battery | 1.1Ah/3.8V
+
+Camera | Description
+------------ | -------------
+Photo | 5MP (2592x1936)
+FOV | 82.6°
+Video | HD720P30
+Format | JPG(Photo); MP4(Video)
+EIS | Yes
