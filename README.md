@@ -56,11 +56,13 @@ Format | JPG(Photo); MP4(Video)
 EIS | Yes
 
 ## Code
-*"""
+```
+"""
 The Tello SDK connects to the aircraft through a Wi-Fi UDP port, allowing users 
 to control the aircraft with text commands.
 
 By establish a UPD communication port, which can implement simple interaction 
 with Tello, including sending SDK instructions to Tello and receiving Tello 
 information.
-"""*
+"""
+```
