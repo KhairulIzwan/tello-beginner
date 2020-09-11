@@ -120,15 +120,14 @@ EIS | Yes
 
 ![GitHub Logo](https://github.com/KhairulIzwan/tello-beginner/blob/master/images/WhatsApp%20Image%202020-09-11%20at%2010.54.55%20PM.jpeg)
 
-![GitHub Logo](https://github.com/KhairulIzwan/tello-beginner/blob/master/images/WhatsApp%20Image%202020-09-11%20at%2010.54.55%20PM%20(1).jpeg)
+4. **Drag and drop the blocks**, and ready to fly!
+
+<!--![GitHub Logo](https://github.com/KhairulIzwan/tello-beginner/blob/master/images/WhatsApp%20Image%202020-09-11%20at%2010.54.55%20PM%20(1).jpeg)-->
+
+### Examples
+1. Takeoff and land
 
 ## Python Codes
-
-```
-├── tello-command.py
-├── tello-state.py
-├── tello-stream.py
-```
 
 ## Important Notes
 ```
@@ -143,3 +142,17 @@ information.
 ```
 
 ![GitHub Logo](https://github.com/KhairulIzwan/tello-beginner/blob/master/images/Tello%20Architecture.png)
+
+```
+├── tello-command.py
+├── tello-state.py
+├── tello-stream.py
+```
+
+```python
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
