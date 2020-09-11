@@ -151,6 +151,9 @@ information.
 #!/usr/bin/python
 
 """
+#!/usr/bin/python
+
+"""
 The Tello SDK connects to the aircraft through a Wi-Fi UDP port, allowing users 
 to control the aircraft with text commands.
 
@@ -199,9 +202,10 @@ while True:
 		if 'end' in msg:
 			sock.close()
 			break
-		msg = msg.encode(encoding="utf-8")
-		print(msg)
+		# sending command
+		print("[SEND]: Sending [{}] command...".format(colored(msg, 'yellow')))
 		sent = sock.sendto(msg, tello_address)
+
 	except Exception as err:
 		print(err)
 		sock.close()
