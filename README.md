@@ -210,7 +210,7 @@ while True:
 
 ### tello-state.py
 
-```
+```python
 #!/usr/bin/python
 
 """
@@ -253,7 +253,7 @@ print("[SEND]: Sending [{}] command...".format(colored(msg, 'yellow')))
 sent = sock.sendto(msg, tello_address)
 
 while True:
-	try:		
+	try:
 		# receiving tello-sate
 		data, server = sock.recvfrom(1024)
 		data = data.decode(encoding="utf-8")
@@ -269,7 +269,7 @@ while True:
 
 ### tello-stream.py
 
-```
+```python
 #!/usr/bin/python
 
 """
@@ -291,7 +291,7 @@ from imutils import resize
 tello_video = cv2.VideoCapture("udp://@0.0.0.0:11111")
 
 while True:
-	try:		
+	try:
 		# receiving video-stream
 		ret, frame = tello_video.read()
 		if ret:
