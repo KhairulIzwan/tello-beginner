@@ -9,68 +9,25 @@ with Tello, including sending SDK instructions to Tello and receiving Tello
 information.
 """
 
-# import required libraries and packages
 import socket
-from termcolor import colored
+import time
 
-# create a UDP socket -- for sending command and receiving response
-print("[INFO]: Create a UDP socket...")
-sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+drone1 = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+drone1.setsockopt(socket.SOL_SOCKET, 2, 'wlp2s0')
 
-tello_ip = '192.168.10.1'
-tello_port = 8889
-tello_address = (tello_ip, tello_port)
+drone2 = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+drone2.setsockopt(socket.SOL_SOCKET, 2, 'wlxe8de271db8bb')
 
-# receiving command response configuration
-local_ip = ''
-local_port = 8889
+drone1.sendto('command'.encode(), 0, ('192.168.10.1', 8889))
+drone2.sendto('command'.encode(), 0, ('192.168.10.1', 8889))
 
-sock.bind((local_ip, local_port))
+drone1.sendto('takeoff'.encode(), 0, ('192.168.10.1', 8889))
+drone2.sendto('takeoff'.encode(), 0, ('192.168.10.1', 8889))
 
-# initiate SDK mode
-print("[INFO]: Initiate SDK mode...")
-msg = "command"
-msg = msg.encode(encoding="utf-8")
+time.sleep(5)
 
-"""
-send "command" to the Tello via UDP PORT 8889 to initiate SDK mode
-"""
-# sending command
-print("[SEND]: Sending [{}] command...".format(colored(msg, 'yellow')))
-sent = sock.sendto(msg, tello_address)
+drone1.sendto('command'.encode(), 0, ('192.168.10.1', 8889))
+drone2.sendto('command'.encode(), 0, ('192.168.10.1', 8889))
 
-# receiving response
-data, server = sock.recvfrom(1024)
-data = data.decode(encoding="utf-8")
-print("[RECV]: Recieving [{}] response".format(colored(data, 'green')))
-
-# loops
-while True:
-	try:
-		# waiting for user instruction --> SDK2.0
-		print("{}".format(colored("[USER]: ", 'green')))
-		msg = raw_input('') # change raw_input --> input for Python 3
-		if not msg:
-			break
-		if "end" in msg:
-			# close a UDP socket -- for sending command
-			print("[INFO]: Close a UDP socket...")
-			sock.close()
-			break
-		
-		# sending command
-		msg = msg.encode()
-		print("[SEND]: Sending [{}] command...".format(colored(msg, 'yellow')))
-		sent = sock.sendto(msg.encode(encoding="utf-8"), tello_address)
-		
-		# receiving command
-		data, server = sock.recvfrom(1024)
-		data = data.decode(encoding="utf-8")
-		print("[RECV]: Recieving [{}] response".format(colored(data, 'green')))
-		
-	except Exception as err:
-		print("{}".format(colored(err, 'red')))
-		# close a UDP socket -- for sending command
-		print("[INFO]: Close a UDP socket...")
-		sock.close()
-		break
+drone1.sendto('land'.encode(), 0, ('192.168.10.1', 8889))
+drone2.sendto('land'.encode(), 0, ('192.168.10.1', 8889))

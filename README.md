@@ -81,7 +81,11 @@ EIS | Yes
 
 ![GitHub Logo](https://github.com/KhairulIzwan/tello-beginner/blob/master/images/Tello%20App.png)
 
+### Program the Ryze Tello with Tello EDU App
+
 ![GitHub Logo](https://github.com/KhairulIzwan/tello-beginner/blob/master/images/Tello%20EDU%20App.png)
+
+### Program the Ryze Tello with Tello EDU App
 
 ## Important Notes
 ```
