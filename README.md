@@ -38,10 +38,12 @@ tello-beginner
 │           ├── Tello Programme Tentative.doc
 │           ├── Tello Programme Tentative.docx
 │           └── Tello Programme Tentative.odt
-├── tello-command.py
-├── tello-command-swarm.py
-├── tello-state.py
-└── tello-stream.py
+└── scripts
+    ├── tello-command.py
+    ├── tello-command-swarm.py
+    ├── tello-state.py
+    └── tello-stream.py
+
 ```
 
 ## Introduction
