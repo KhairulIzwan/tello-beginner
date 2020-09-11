@@ -120,7 +120,7 @@ EIS | Yes
 
 ![GitHub Logo](https://github.com/KhairulIzwan/tello-beginner/blob/master/images/WhatsApp%20Image%202020-09-11%20at%2010.54.55%20PM.jpeg)
 
-![GitHub Logo](https://github.com/KhairulIzwan/tello-beginner/blob/master/images/WhatsApp%20Image%202020-09-11%20at%2010.54.55%20PM.jpeg)
+![GitHub Logo](https://github.com/KhairulIzwan/tello-beginner/blob/master/images/WhatsApp%20Image%202020-09-11%20at%2010.54.55%20PM%20(1).jpeg)
 
 ## Python Codes
 
