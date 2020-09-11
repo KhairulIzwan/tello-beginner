@@ -124,7 +124,7 @@ EIS | Yes
 
 4. **Drag and drop the blocks**, and ready to fly!
 
-<!--![GitHub Logo](https://github.com/KhairulIzwan/tello-beginner/blob/master/images/WhatsApp%20Image%202020-09-11%20at%2010.54.55%20PM%20(1).jpeg)-->
+![GitHub Logo](https://github.com/KhairulIzwan/tello-beginner/blob/master/images/WhatsApp%20Image%202020-09-11%20at%2010.54.55%20PM%20(1).jpeg)
 
 ### Examples
 1. Takeoff and land
@@ -211,6 +211,16 @@ while True:
 		sock.close()
 		break
 ```
+
+#### Commands
+
+![GitHub Logo](https://github.com/KhairulIzwan/tello-beginner/blob/master/images/Screenshot%202020-09-12%2000:16:19.png)
+
+![GitHub Logo](https://github.com/KhairulIzwan/tello-beginner/blob/master/images/Screenshot%202020-09-12%2000:16:57.png)
+
+![GitHub Logo](https://github.com/KhairulIzwan/tello-beginner/blob/master/images/Screenshot%202020-09-12%2000:17:27.png)
+
+![GitHub Logo](https://github.com/KhairulIzwan/tello-beginner/blob/master/images/Screenshot%202020-09-12%2000:18:07.png)
 
 ### tello-state.py
 
