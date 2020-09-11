@@ -116,7 +116,7 @@ EIS | Yes
 
 ![GitHub Logo](https://github.com/KhairulIzwan/tello-beginner/blob/master/images/WhatsApp%20Image%202020-09-11%20at%2010.54.54%20PM.jpeg)
 
-## Codes
+## Python Codes
 
 ```
 ├── tello-command.py
