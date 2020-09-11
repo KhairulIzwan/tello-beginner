@@ -7,7 +7,16 @@ tello-beginner
 │   ├── Tello Aircraft Diagram.png
 │   ├── Tello App.png
 │   ├── Tello Architecture.png
-│   └── Tello EDU App.png
+│   ├── Tello EDU App.png
+│   ├── WhatsApp Image 2020-09-11 at 10.54.52 PM.jpeg
+│   ├── WhatsApp Image 2020-09-11 at 10.54.53 PM (1).jpeg
+│   ├── WhatsApp Image 2020-09-11 at 10.54.53 PM.jpeg
+│   ├── WhatsApp Image 2020-09-11 at 10.54.54 PM (1).jpeg
+│   ├── WhatsApp Image 2020-09-11 at 10.54.54 PM.jpeg
+│   ├── WhatsApp Image 2020-09-11 at 10.54.55 PM (1).jpeg
+│   ├── WhatsApp Image 2020-09-11 at 10.54.55 PM.jpeg
+│   ├── WhatsApp Image 2020-09-11 at 10.54.56 PM.jpeg
+│   └── WhatsApp Video 2020-09-11 at 10.58.41 PM.mp4
 ├── README.md
 ├── reference
 │   └── TelloDoc
@@ -30,9 +39,9 @@ tello-beginner
 │           ├── Tello Programme Tentative.docx
 │           └── Tello Programme Tentative.odt
 ├── tello-command.py
+├── tello-command-swarm.py
 ├── tello-state.py
 └── tello-stream.py
-
 ```
 
 ## Introduction
