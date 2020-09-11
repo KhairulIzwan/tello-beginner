@@ -87,6 +87,12 @@ EIS | Yes
 
 ### Program the Ryze Tello with Tello EDU App
 
+## Codes
+
+├── tello-command.py
+├── tello-state.py
+├── tello-stream.py
+
 ## Important Notes
 ```
 """
@@ -100,22 +106,3 @@ information.
 ```
 
 ![GitHub Logo](https://github.com/KhairulIzwan/tello-beginner/blob/master/images/Tello%20Architecture.png)
-
-## Codes
-
-├── tello-command.py
-├
-├
-├
-├
-├── tello-state.py
-├
-├
-├
-├
-├── tello-stream.py
-├
-├
-├
-├
-└
