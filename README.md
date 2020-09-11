@@ -99,6 +99,8 @@ EIS | Yes
 1. Check the wifi address inside the drone:
 ![GitHub Logo](https://github.com/KhairulIzwan/tello-beginner/blob/master/images/WhatsApp%20Image%202020-09-11%20at%2010.54.56%20PM.jpeg)
 
+2. Insert the batteries and turn on the drone:
+![GitHub Logo](https://youtu.be/tgb-I981q9g)
 
 ## Codes
 
