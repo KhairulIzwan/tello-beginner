@@ -90,11 +90,15 @@ EIS | Yes
 
 ![GitHub Logo](https://github.com/KhairulIzwan/tello-beginner/blob/master/images/Tello%20App.png)
 
-### Program the Ryze Tello with Tello EDU App
-
 ![GitHub Logo](https://github.com/KhairulIzwan/tello-beginner/blob/master/images/Tello%20EDU%20App.png)
 
-### Program the Ryze Tello with Tello EDU App
+# Program the Ryze Tello
+## Tello EDU App
+
+**Steps**
+1. Check the wifi address inside the drone:
+![GitHub Logo](https://github.com/KhairulIzwan/tello-beginner/blob/master/images/WhatsApp%20Image%202020-09-11%20at%2010.54.56%20PM.jpeg)
+
 
 ## Codes
 
